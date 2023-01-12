@@ -29,3 +29,17 @@ public class RegularExpresion {
         System.out.println(password);
     }
 }
+public class RegularExpresionTest { //JUnit testing
+    @Test
+    public void toCheckName() {
+        Assert.assertEquals("Mayur" ,"Mayur");
+    }
+    @Test
+    public void toChecklastName() {
+        Assert.assertEquals("Polojwar" ,"Polojwar");
+    }
+    @Test
+    public void toCheckEmail() {
+        Assert.assertEquals("mayurpolojwar1234@gmail.com" ,"mayurpolojwar1234@gmail.com");
+    }
+}
